@@ -1,20 +1,28 @@
 # TypeScript
 *.map
 
-.DS_Store
+# Node modules
 node_modules/
-/dist/
+
+# Build output
+dist/
+build/
+node/
+coverage/
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/test/unit/coverage/
-/test/e2e/reports/
-selenium-debug.log
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
